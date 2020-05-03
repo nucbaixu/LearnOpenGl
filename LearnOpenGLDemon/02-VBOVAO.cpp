@@ -180,7 +180,7 @@ void RectangleGLwin::ProcessSharder()
 
 int VBOVAOTest()
 {
-	std::string windname("GetStartGL");
+	std::string windname("VAOVB)");
 	RectangleGLwin *glwind = new RectangleGLwin(600, 800, windname);
 	glwind->RunGL();
 	delete glwind;

@@ -8,11 +8,12 @@
 #include "stb_image.h"
 
 typedef void(*pFun)(GLFWwindow* window, double xpos, double ypos);
+
 void mouse_callbackfun(GLFWwindow* window, double xpos, double ypos);
 void scroll_callbackfun(GLFWwindow* window, double xoffset, double yoffset);
 
 // settings
-const unsigned int SCR_WIDTH = 800;
+const unsigned int SCR_WIDTH  = 800;
 const unsigned int SCR_HEIGHT = 600;
 
 // camera
@@ -339,7 +340,7 @@ void CameraExampleGLwin::ProcessSharder()
 
 int CameraTest()
 {
-	std::string windname("CoordinateMultiple");
+	std::string windname("CameraTest");
 	CameraExampleGLwin *glwind = new CameraExampleGLwin(800, 600, windname);
 	glwind->RunGL();
 	delete glwind;

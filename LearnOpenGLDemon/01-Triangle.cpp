@@ -167,7 +167,7 @@ void TriangleGLwin::ProcessSharder()
 
 int TriangeleTest()
 {
-	std::string windname("GetStartGL");
+	std::string windname("Triangle");
 	TriangleGLwin *glwind = new TriangleGLwin(300,400, windname);
 	glwind->RunGL();
 	delete glwind;

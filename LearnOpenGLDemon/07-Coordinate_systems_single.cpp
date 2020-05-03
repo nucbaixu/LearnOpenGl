@@ -239,7 +239,7 @@ void CoordinateSingleExampleGLwin::ProcessSharder()
 
 int CoordinateSingleTest()
 {
-	std::string windname("CoordinateMultiple");
+	std::string windname("CoordinateSingle");
 	CoordinateSingleExampleGLwin *glwind = new CoordinateSingleExampleGLwin(800, 600, windname);
 	glwind->RunGL();
 	delete glwind;

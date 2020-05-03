@@ -185,7 +185,7 @@ void TransformExampleGLwin::ProcessSharder()
 
 int TransformTest()
 {
-	std::string windname("MultiTexture");
+	std::string windname("Transformation");
 	TransformExampleGLwin *glwind = new TransformExampleGLwin(600, 800, windname);
 	glwind->RunGL();
 	delete glwind;

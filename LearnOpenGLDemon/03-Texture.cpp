@@ -144,7 +144,7 @@ void TextureExampleGLwin::ProcessSharder()
 
 int TextureTest()
 {
-	std::string windname("GetStartGL");
+	std::string windname("Texture");
 	TextureExampleGLwin *glwind = new TextureExampleGLwin(600, 800, windname);
 	glwind->RunGL();
 	delete glwind;
