@@ -10,3 +10,4 @@ int CoordinateTest();
 int CoordinateSingleTest();
 int CoordinateMultipleTest();
 int CameraTest();
+int ColorTest();

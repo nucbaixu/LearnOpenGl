@@ -167,6 +167,7 @@
     <ClCompile Include="07-Coordinate_systems_multiple.cpp" />
     <ClCompile Include="07-Coordinate_systems_single.cpp" />
     <ClCompile Include="08-Camera.cpp" />
+    <ClCompile Include="09-Color.cpp" />
     <ClCompile Include="3rdparty\glad\src\glad.c" />
     <ClCompile Include="CCamera.cpp" />
     <ClCompile Include="CShader.cpp" />
